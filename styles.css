@@ -1,0 +1,76 @@
+html, body {
+    height: 100%;
+    text-align: center;
+    padding: 0;
+    margin: -10px;
+    font-size: 28px;
+}
+.flexible {
+    display: flex;
+    flex-basis: 50%;
+    justify-content: center;
+    align-content: center;
+}
+img {
+    height: auto;
+    max-width: 100%;
+}
+
+.d1 {
+    height: 50%;
+    flex-direction: column;
+}
+
+.d2 {
+
+    flex-grow: 1;
+}
+.d3 {
+    background-color: aqua;
+}
+
+.d4 {
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQxkrTO1qB5t_2ZpncRbvpyGOndQXyZ_x1BiNqnnquocQ&s");
+}
+
+.d5 {
+    background-color: blue;
+}
+
+.d6 {
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQxkrTO1qB5t_2ZpncRbvpyGOndQXyZ_x1BiNqnnquocQ&s");
+}
+
+
+.blocked {
+    height: 300px;
+    width: 100%;
+}
+.a1 {
+    height: 50%;
+    margin-bottom: 328px;
+}
+.a2 {
+    display: block;
+    width: 100%;
+}
+
+.a3 {
+    background-color: blue;
+    width: 50%;
+    float: right;
+}
+
+.a4 {
+    float: left;
+    width: 50%;
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQxkrTO1qB5t_2ZpncRbvpyGOndQXyZ_x1BiNqnnquocQ&s");
+}
+
+.a5 {
+    background-color: aqua;
+}
+
+.a6 {
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQxkrTO1qB5t_2ZpncRbvpyGOndQXyZ_x1BiNqnnquocQ&s");
+}
